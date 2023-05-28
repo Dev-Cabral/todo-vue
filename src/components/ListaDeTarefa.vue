@@ -18,4 +18,7 @@ const props = defineProps(['tarefas']);
 .done {
     text-decoration: line-through;
 }
+input, label {
+    cursor: pointer;
+}
 </style>
